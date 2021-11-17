@@ -1,0 +1,71 @@
+.navigation{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+}
+
+.navigation .leftlinks{
+    width: 33.33%;
+    float: left;
+
+}
+
+.navigation .rightlinks{
+    width: 33.33%;
+    float: right;
+}
+
+.navigation .centerlink{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+
+}
+.clear{
+    clear: both;
+}
+
+
+.reklami{
+    background-color: blue;
+    height: 1000px;
+    width: 20%;
+    float: right;
+}
+
+.sodrzina{
+    background-color: red;
+    height: 1000px;
+    width: 60%;
+    float: right;
+
+}
+
+.meni{
+    background-color: yellow;
+    height: 1000px;
+    width: 20%;
+    float: right;
+}
+
+.share{
+    width: 50px;
+    height: 70px;
+    position: fixed;
+    background-color:yellow;
+    color:blue;
+    text-align: center;
+    right: 10px;
+    bottom: 100px;
+}
+
+.tigar{
+background-image: url(https://nationalgreenhighway.org/img/kipm-2020/1153/image_dE4psEO3z4.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50%;
+height: 200px;
+width: 200px;
+position: relative;
+}
+

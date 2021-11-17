@@ -1,0 +1,61 @@
+.row{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.box{
+    width: calc(33.33% - 20px);
+    height: 300px;
+    float: left;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 79%, rgba(0,212,255,1) 100%);
+    margin: 20px 10px;
+    border-radius: 10px;
+    position: relative
+}
+.blue{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 79%, rgba(0,212,255,1) 100%);
+}
+
+.red{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(242,4,4,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.darkBlue{
+    background: rgb(10. 13. 152);
+    background: linear-gradient(43deg, rgba(10.13.152.1) 16%, rgba(44.42.159.1)100%);
+}
+
+.logo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: 50%;
+    background-image: url(https://nationalgreenhighway.org/img/kipm-2020/1153/image_dE4psEO3z4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.aircare{
+
+        background-image: url(https://gorjan.rocks/img/aircare.png);
+}
+.ted{
+background-image: url(https://gorjan.rocks/img/ted.png);
+}
+
+.booking{
+
+    background-image: url(https://gorjan.rocks/img/booking.png);
+   
+}
+
+@media screen and (max-width: 700px){
+    .box{
+        width: calc(100% - 20px);
+    }
+
+}

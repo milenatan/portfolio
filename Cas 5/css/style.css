@@ -1,0 +1,24 @@
+/*Element selector*/
+
+li{
+
+}
+
+/* Class selectpr*/
+
+.bold{
+    font-weight: bold;
+}
+
+/* ID selector */
+
+#menu ul li a{
+
+}
+
+/* Select one HTML element under another */
+
+#menulist li{
+    background-color: red;
+}
+        
